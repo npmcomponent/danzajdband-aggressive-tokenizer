@@ -1,15 +1,13 @@
 
 var inherit = require('inherit')
-  , tokenizer = require('tokenizer')();
+  , Tokenizer = require('tokenizer');
 
 function AggressiveTokenizer() {}
 
-inherit(Tokenizer, AggressiveTokenizer);
+inherit(AggressiveTokenizer, Tokenizer);
 
 AggressiveTokenizer.prototype.tokenize = function(str) {
   return this.trim(str.split(/\W+/));
 };
 
-module.exports = function() {
-  return new AggressiveTokenizer();
-};
+module.exports = new AggressiveTokenizer;
