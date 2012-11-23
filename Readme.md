@@ -11,7 +11,7 @@
 
 ```js
 
-var tokenizer = require('tokenizer');
+var tokenizer = require('aggressive-tokenizer');
 
 tokenizer.tokenize('viva la pepa    ');
   //['viva', 'la', 'pepa']
