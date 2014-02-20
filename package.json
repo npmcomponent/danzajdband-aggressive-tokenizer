@@ -1,0 +1,11 @@
+{
+  "name": "danzajdband-aggressive-tokenizer",
+  "description": "Aggresive tokenizer (from node-natural)",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "danzajdband-tokenizer": "git://github.com/npmcomponent/danzajdband-tokenizer.git"
+  },
+  "license": "MIT"
+}

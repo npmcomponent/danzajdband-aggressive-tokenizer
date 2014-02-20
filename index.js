@@ -1,6 +1,6 @@
 
-var inherit = require('inherit')
-  , Tokenizer = require('tokenizer');
+var inherit = require('component-inherit')
+  , Tokenizer = require('danzajdband-tokenizer');
 
 function AggressiveTokenizer() {}
 
